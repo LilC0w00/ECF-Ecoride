@@ -27,6 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin : 0 50px;
 }
 
 nav ul{
@@ -43,4 +44,16 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #8ACA75;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #2F5231;
+  color: #FFFFFF;
+  padding: 20px;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
