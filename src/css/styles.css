@@ -18,12 +18,7 @@ header {
   color: #FFFFFF;
 }
 
-header #logo {
-  border: 1px red solid;
-}
-
 nav {
-  border: 1px blue solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
