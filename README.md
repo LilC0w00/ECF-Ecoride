@@ -11,7 +11,7 @@ Plateforme de covoiturage écologique en développement.
 
 - Page d'accueil (en cours)
 - Formulaire de recherche de trajets
-- Page de connexion (à venir)
+- Vue details d'un covoiturage (à venir)
 
 ## 🚀 Technologies utilisées
 
