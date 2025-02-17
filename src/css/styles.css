@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zain", serif;;
+}
+
+body {
+  background-color: #DCDEC5;
+}
+
+/* HEADER */
+
+header {
+  background-color: #2F5231;
+  padding: 10px 20px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+header #logo {
+  border: 1px red solid;
+}
+
+nav {
+  border: 1px blue solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #8ACA75;
+}
