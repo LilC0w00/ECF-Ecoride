@@ -7,7 +7,46 @@
   <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-  <h1>Bienvenue sur EcoRide</h1>
+  <header>
+    <nav>
+        <div class="logo">
+          <img src="public/logo.png" alt="logo-ecoride">
+        </div>
+        <ul>
+            <li><a href="#">Covoiturage</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><img src="public/logo-profil.png" alt="profil icon" id="profil-icone"></li>
+        </ul>
+    </nav>
+</header>
+<section class="hero">
+  <img src="public/image-accueil-voiture.png" alt="Voiture vue du dessus">
+  <div class="search-bar">
+      <input type="text" placeholder="Départ">
+      <input type="text" placeholder="Arrivée">
+      <input type="date">
+      <input type="number" min="1" value="1">
+      <button>Rechercher</button>
+  </div>
+</section>
+<section class="about">
+  <div class="about-content">
+      <div class="about-images">
+          <img src="public/image-conducteur.png" alt="Conducteur">
+          <img src="public/image-passager.png" alt="Passager">
+          <img src="public/image-groupe.png" alt="Groupe de passagers">
+      </div>
+      <h2>Qui sommes-nous ?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+  </div>
+</section>
+
+<footer>
+  <p>Mention Légales</p>
+  <p>Contact</p>
+  <p>ECORIDE</p>
+</footer>
+
   <script src="src/js/script.js"></script>
 </body>
 </html>
