@@ -53,3 +53,11 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
+footer p {
+  cursor: pointer;
+}
+
+footer p:hover{
+  color: #8ACA75;
+}
