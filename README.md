@@ -4,7 +4,7 @@ Plateforme de covoiturage écologique en développement.
 
 ## 🔧 Installation
 
-1. Clonez ce repo : `git clone [lien_du_repo]`
+1. Clonez ce repo : `git clone [git@github.com:LilC0w00/ECF-Ecoride.git]`
 2. Ouvrez `index.html` dans un navigateur
 
 ## 📌 Fonctionnalités
