@@ -19,6 +19,8 @@
   display: flex;
   gap: 10px;
   border-radius: 10px;
+  width: 90%;
+  justify-content: center;
 }
 
 .search-bar input, .search-bar button {
