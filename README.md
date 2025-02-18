@@ -43,3 +43,7 @@ Le site est accessible en ligne ici : **[Lien GitHub Pages](https://lilc0w00.git
 ## 📧 Contact
 
 Si vous avez des questions, suggestions ou retours, contactez-moi à **salmataleb.pro@gmail.com**.
+
+## Documentation
+
+- [Manuel d'utilisation](./docs/manuelUtilisation.pdf)
