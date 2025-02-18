@@ -47,3 +47,5 @@ Si vous avez des questions, suggestions ou retours, contactez-moi à **salmatale
 ## Documentation
 
 - [Manuel d'utilisation](./docs/manuelUtilisation.pdf)
+- [Charte graphique](./docs/charte_graphique_ecoride.pdf)
+- [Maquettes](./docs/maquettes/)
