@@ -1,0 +1,67 @@
+.search-bar-covoiturage {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+.search-bar-covoiturage input, .search-bar-covoiturage button {
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  background-color: #2f4f2f;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+.filters {
+  width: 20%;
+  background-color: #2f4f2f;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+.filters h3 {
+  margin-top: 0;
+}
+
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left:6%;
+  width: 70%;
+  margin-top: 1px;
+}
+
+#rides-container {
+  width: 100%;
+}
+
+.ride-card {
+  color: white;
+  padding: 50px;
+  margin-bottom : 50px;
+  display: flex;
+  align-items: center;
+  background-color: #2f4f2f;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.details-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

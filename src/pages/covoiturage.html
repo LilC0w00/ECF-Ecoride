@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoRide - Covoiturage</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/covoiturage.css">
+  
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+       <ul>
+            <li><a href="/index.html"><img src="/public/logo.png" alt="logo-ecoride" id="logo"></a></li>
+            <li><a href="/src/pages/covoiturage.html">Covoiturage</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="logo-profil">
+          <img src="/public/logo-profil.png" alt="profil-logo" id="logo">
+        </div>
+    </nav>
+    <section class="search-bar-covoiturage">
+      <input type="text" placeholder="Départ">
+      <input type="text" placeholder="Arrivée">
+      <input type="date">
+      <input type="number" min="1" value="1">
+      <button id="rechercher" onclick="searchRides()">Rechercher</button>
+    </section>
+  </header>
+  <div class="container">
+    <aside class="filters">
+        <h3>Filtres</h3>
+        <label><input type="checkbox"> Trajets directs</label><br>
+        <label><input type="checkbox"> Avec bagages</label><br>
+        <label><input type="checkbox"> Véhicule électrique</label>
+    </aside>
+    <section class="results">
+      <div id="rides-container"></div>
+    </section>
+
+<script src="/src/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.container-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ride-info, .driver-info, .reservation-box {
+  background-color: #2f4f2f;
+  color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 80%;
+}
+.reservation-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.reservation-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+.contact-btn {
+  background-color: #6abf69;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.ride-details {
+  background-color: #2f4f2f;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 10px;
+}
+.ride-details p {
+  margin: 5px 0;
+}
