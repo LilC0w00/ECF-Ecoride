@@ -10,9 +10,24 @@ Ecoride est une plateforme de covoiturage écologique permettant de mettre en re
 - **CSS** pour le design et la mise en page.
 - **JavaScript** pour les interactions dynamiques.
 
+---
+
 ## ✅ Fonctionnalités développées
 
-- Implémentation des User Stories **US1 à US6**.
+Les User Stories suivantes ont été implémentées :
+
+- **US1 : Page d'accueil**  
+  Présentation de l'entreprise, barre de recherche, footer avec mentions légales.
+- **US2 : Menu de l'application**  
+  Navigation entre la page d'accueil, les covoiturages, la connexion et le contact.
+- **US3 : Vue des covoiturages**  
+  Affichage des itinéraires disponibles après saisie d'une adresse de départ, d'arrivée et d'une date.
+- **US4 : Filtres des covoiturages**  
+  Filtrage des résultats par aspect écologique, prix, durée et note du conducteur.
+- **US5 : Vue détaillée d'un covoiturage**  
+  Détails supplémentaires sur le conducteur, le véhicule et les préférences.
+
+---
 
 ## 📥 Installation
 
@@ -26,9 +41,21 @@ git clone git@github.com:LilC0w00/ECF-Ecoride.git
 
 2. **Ouvrir le fichier `index.html`** dans un navigateur web.
 
+---
+
 ## 🌍 Déploiement
 
 Le site est accessible en ligne ici : **[Lien GitHub Pages](https://lilc0w00.github.io/ECF-Ecoride/)**
+
+---
+
+## 🛠 Bonnes pratiques Git
+
+Branche principale (main) : Contient la version stable de l'application.
+
+Branche de développement (develop) : Utilisée pour fusionner les fonctionnalités avant de les intégrer à la branche principale.
+
+---
 
 ## 📂 Structure du projet
 
@@ -42,9 +69,25 @@ Le site est accessible en ligne ici : **[Lien GitHub Pages](https://lilc0w00.git
 │── README.md        # Documentation du projet
 ```
 
+---
+
+## 📊 Gestion de projet
+
+J'ai utilisé Trello pour organiser mon travail. Voici un aperçu de mon tableau Kanban :
+
+Fonctionnalités prévues : Liste des US à implémenter.
+
+Fonctionnalités en cours : US sur lesquelles je travaille actuellement.
+
+Fonctionnalités terminées : US implémentées et testées.
+
+---
+
 ## 📧 Contact
 
 Si vous avez des questions, suggestions ou retours, contactez-moi à **salmataleb.pro@gmail.com**.
+
+---
 
 ## Documentation
 
