@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .search-bar input {
   width: 150px;
   background: #2e482f;
