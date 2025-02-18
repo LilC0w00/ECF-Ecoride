@@ -34,8 +34,10 @@ Le site est accessible en ligne ici : **[Lien GitHub Pages](https://lilc0w00.git
 
 ```
 📁 ecoride/
-│── 📁 src/           # page JavaScript, page CSS et dossier Pages (html)
+│── 📁 src/          # page JavaScript, page CSS et dossier Pages (html)
+│── 📁 vscode/       # Utilisé pour regardez sa page en direct sur vscode
 │── 📁 public/       # Images et assets
+│── 📁 docs/         # Charte graphique et Manuel d'utilisation (maquettes)
 │── index.html       # Page d'accueil
 │── README.md        # Documentation du projet
 ```
