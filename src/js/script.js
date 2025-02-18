@@ -10,7 +10,7 @@ function searchRides() {
               <p><strong>6h00</strong> Paris ➝ <strong>8h00</strong> Bordeaux</p>
               <p>20$</p>
           </div>
-          <a href="../pages/covoiturage-details.html"><button class="details-btn">Détails</button></a>
+          <a href="/src/pages/covoiturage-details.html"><button class="details-btn">Détails</button></a>
       `;
     ridesContainer.appendChild(rideCard);
   }
