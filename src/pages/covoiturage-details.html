@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/src/css/styles.css">
     <link rel="stylesheet" href="/src/css/index.css">
     <link rel="stylesheet" href="/src/css/covoiturage.css">
+    <link rel="stylesheet" href="/src/css/covoiturage-details.css">
   
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,13 +28,32 @@
           <img src="/public/logo-profil.png" alt="profil-logo" id="logo">
         </div>
     </nav>
-    <section class="search-bar-covoiturage">
-      <input type="text" placeholder="Départ">
-      <input type="text" placeholder="Arrivée">
-      <input type="date">
-      <input type="number" min="1" value="1">
-      <button id="rechercher" onclick="searchRides()">Rechercher</button>
-    </section>
   </header>
+  <div class="container-info">
+    <section class="ride-info">
+        <h2>Trajet</h2>
+        <p><strong>6h00</strong> Paris ➝ <strong>8h00</strong> Bordeaux</p>
+        <p>Durée : 2h00</p>
+    </section>
+    
+    <section class="reservation-box">
+        <h2>1 passager - 20$</h2>
+        <button class="reservation-btn">Demande de réservation</button>
+    </section>
+    
+    <section class="driver-info">
+        <h2>Conducteur</h2>
+        <p><strong>Prénom.N</strong></p>
+        <p>⭐ 4 étoiles | 32 avis | Profil vérifié</p>
+        <p>Bonjour ! Je prends l'avion à l'aéroport d'Orly. Je gare la voiture à un parking extérieur. Une navette peut nous déposer gratuitement.</p>
+        <button class="contact-btn">Contactez Prénom</button>
+    </section>
+    
+    <section class="ride-details">
+        <p>📅 Votre réservation sera confirmée lorsque le conducteur acceptera votre demande.</p>
+        <p>👥 Max. 2 à l'arrière</p>
+        <p>🚗 NISSAN MICRA - Noir</p>
+    </section>
+</div>
 </body>
 </html>
